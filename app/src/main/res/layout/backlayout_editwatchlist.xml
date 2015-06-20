@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/backlayout_editwatchlist_523"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Enter new stocks:"
+        android:layout_alignParentTop="true"
+        />
+    <EditText
+        android:layout_below="@+id/backlayout_editwatchlist_523"
+        android:id="@+id/backlayout_editwatchlist_newsymbols"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="separate by commas..."
+        	/>
+           
+    
+
+</RelativeLayout>

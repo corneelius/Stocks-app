@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+    
+     <actionbar.ActionBar
+        android:id="@+id/firelist_actionbar" 
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_height" />
+     <watchlist.Title
+         android:id="@+id/firelist_title"
+         android:layout_width="fill_parent"
+         android:layout_height="60dp"
+         />
+     
+     <ScrollView
+         android:layout_width="fill_parent"
+       	 android:layout_height="0px"
+       	 android:layout_weight="4" 
+       	 android:id="@+id/firelist_contents"
+       	 >
+       	         
+	</ScrollView>
+	
+	<graphics.DrawableView
+	    android:id="@+id/firelist_drawableview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    />
+
+     <FrameLayout 
+         android:layout_width="fill_parent"
+       	 android:layout_height="0px" 
+       	 android:layout_weight="3"
+         >
+         
+         <widget.ChartWidget
+         android:id="@+id/firelist_chart"
+         android:layout_width="fill_parent"
+       	 android:layout_height="fill_parent"
+    />
+         
+          <ProgressBar 
+             android:layout_width="28dp"
+             android:layout_height="28dp"
+             android:indeterminateOnly="true"
+             android:id="@+id/firelist_chart_progressbar"
+             android:layout_gravity="center"/>
+         
+     </FrameLayout>
+     
+</LinearLayout>
+
+
+     
+     
+     
+     
+     

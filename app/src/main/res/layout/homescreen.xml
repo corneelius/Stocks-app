@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#00FF00"
+    android:id="@+id/homescreen_container"
+    >
+    
+<RelativeLayout 
+    android:id="@+id/homescreen_indexLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#FFFFFF">
+    
+      <actionbar.ActionBar
+          android:id="@+id/homescreen_actionbar" 
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:layout_alignParentTop="true"/>
+              
+                
+                 <widget.IndexView
+       		   android:id="@+id/homescreen_indexview"
+        		  android:layout_width="fill_parent"
+        		  android:layout_height="0px" 
+        		  android:layout_below="@+id/homescreen_actionbar" />
+       
+
+</RelativeLayout>
+
+
+<RelativeLayout 
+    android:id="@+id/homescreen_backLayout"
+    android:layout_width="0px"
+    android:layout_height="0px" 
+    android:background="#3F4241">
+      
+    </RelativeLayout>
+
+</AbsoluteLayout>
+
+    

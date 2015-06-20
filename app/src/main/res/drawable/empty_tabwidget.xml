@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="line">
+    
+    <padding
+        android:left="1dp"
+        android:top="1dp"
+        android:right="1dp"
+        android:bottom="1dp" />
+    <size 
+        android:width="700dp"
+        android:height="5dp"/>
+    <gradient
+        android:type="sweep"
+        android:startColor="#6491FF"
+        android:endColor="#33B5E5" />
+    
+
+</shape>

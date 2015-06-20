@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:id="@+id/stockpage_rlayout" 
+	android:background="#FFFFFF">
+    
+    
+ 	<actionbar.ActionBar
+        android:id="@+id/stockpage_actionbar" 
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"/>
+ 	
+    
+    
+   				 <widget.HeaderWidget 
+   			     android:id="@+id/header_widget"
+     		   android:layout_width="fill_parent"
+     		   android:layout_height="90dip"
+     		   android:layout_below="@+id/stockpage_actionbar"
+     		   android:background="#FFFFFF" />
+   				 
+   		<LinearLayout 
+   		    android:layout_below="@+id/header_widget"
+   		    android:layout_width="match_parent"
+   		    android:layout_height="wrap_content"
+   		    android:layout_alignParentBottom="true"
+   		    android:orientation="vertical"
+   		    >
+  			  <widget.ChartWidget 
+   			     android:id="@+id/stockpage_chartwidget"
+     		   android:layout_width="fill_parent"
+     			   android:layout_height="0px"
+     			   android:layout_weight="5"
+      				  />
+  			  
+  			  	  <widget.StatsWidget
+     		   android:id="@+id/stockpage_statswidget"
+     		   android:layout_width="fill_parent"
+     		   android:layout_height="0px"
+     		   android:layout_weight="4"
+     		   /> 	
+     		   </LinearLayout> 
+
+</RelativeLayout>

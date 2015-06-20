@@ -1,0 +1,5 @@
+package telephony;
+
+public enum StockPopulatorOptions {
+	FILL_STOCK, FILL_NEWS, FILL_CHART, FILL_STATS, FILL_GENERICS, FILL_MARKET_NEWS, FILL_WATCHLISTS
+}

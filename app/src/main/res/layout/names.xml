@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="wrap_content"
+    >
+<ProgressBar 
+    android:id="@+id/actionbar_progressbar2"
+    style="@android:style/Widget.ProgressBar.Horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="5dp"/>
+
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/backLayout_filler"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+<ButtonBar
+    android:layout_width="0px"
+    android:layout_height="0px"
+    android:id="@+id/homescreen_back_buttonbar"
+    />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/homescreen_back_textview"
+    android:gravity="top"
+    />
+    
+
+    </LinearLayout>
